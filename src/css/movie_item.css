@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  margin: 0;
+}
+.box {
+  width: 170px;
+  border: 1px solid #ddd;
+  text-align: center;
+  box-shadow: 0 0 6px #ddd;
+  margin: 5px;
+  padding: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.box .img {
+  width: 100px;
+  height: 140px;
+}
+.box:hover {
+  opacity: 0.9;
+  transform: rotate(1deg) scale(1.03);
+}
